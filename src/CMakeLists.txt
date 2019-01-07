@@ -1,1 +1,1 @@
-add_executable(uno main.cpp ClassName.h ClassName2.h function.cpp)
+add_executable(uno main.cpp myfolder/function.cpp schema/card-constants.h schema/Card.cpp schema/Card.h)

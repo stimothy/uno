@@ -3,7 +3,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../src/function.cpp"
+#include "myfolder/function.cpp"
 
 TEST(MySuiteName, testAdd) {
   ASSERT_EQ(6, add(3));

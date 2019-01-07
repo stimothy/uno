@@ -1,22 +1,6 @@
-#add_subdirectory(lib/gtest)
-
-#include_directories(lib/gtest-1.7.0/include)
-
-#file(GLOB_RECURSE sources_cpp lib/gtest/*.cpp)
-#file(GLOB_RECURSE sources_cc lib/gtest/*.cc)
-#file(GLOB_RECURSE sources_h lib/gtest/*.h)
-#
-##add_executable(unotest main.cpp test.cpp)
-#add_executable(unotest main.cpp test.cpp ${sources_cpp} ${sources_cc} ${sources_h})
-
-
-#link_directories(unotest gtest)
-
 set(UNO_TEST_SOURCES
         lib/gtest/src/gtest-all.cc
-        main.cpp
-        test.cpp
-        test2.cpp functiontest.cpp)
+        main.cpp functiontest.cpp src/schema/CardTest.cpp)
 
 include_directories(
         "${PROJECT_SOURCE_DIR}"
