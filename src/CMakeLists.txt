@@ -1,0 +1,1 @@
+add_executable(uno main.cpp ClassName.h)

@@ -3,4 +3,5 @@ project(uno)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(uno main.cpp)
+add_subdirectory(src)
+add_subdirectory(test)
