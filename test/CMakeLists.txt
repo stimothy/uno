@@ -16,7 +16,7 @@ set(UNO_TEST_SOURCES
         lib/gtest/src/gtest-all.cc
         main.cpp
         test.cpp
-        )
+        test2.cpp)
 
 include_directories(
         "${PROJECT_SOURCE_DIR}"
