@@ -1,1 +1,1 @@
-add_executable(uno main.cpp ClassName.h ClassName2.h)
+add_executable(uno main.cpp ClassName.h ClassName2.h function.cpp)
